@@ -1,19 +1,19 @@
-# Win-House Design System v3.15.0 · Official Specification
+# Win-House Design System v3.16.0 · Official Specification
 
-**版本** Version: v3.15.0 (Production)
+**版本** Version: v3.16.0 (Production)
 **狀態** Status: Active · Mandatory
-**最後更新** Last Updated: 2026-06-29
+**最後更新** Last Updated: 2026-08-17
 **規範負責人** Owner: Tim Fan, CEO, Win-House Group
 
 ---
 
 ## ⚠️ 強制聲明 · MANDATORY NOTICE · 强制声明
 
-**[繁中]** 本規範為文浩集團統一視覺準則,適用於所有 frontend 介面、內部工具、對外網站、簡報範本、AI 生成素材與跨語系頁面。任何 AI、設計師、外包合作夥伴產出 Win-House 視覺素材前,**必須先讀取本規範**並嚴格遵循。本文件取代過往所有版本(v2、v3.0–v3.14.0 全部廢止)。
+**[繁中]** 本規範為文浩集團統一視覺準則,適用於所有 frontend 介面、內部工具、對外網站、簡報範本、AI 生成素材與跨語系頁面。任何 AI、設計師、外包合作夥伴產出 Win-House 視覺素材前,**必須先讀取本規範**並嚴格遵循。本文件取代過往所有版本(v2、v3.0–v3.15.0 全部廢止)。
 
-**[English]** This specification is the unified visual standard for Win-House Group, applicable to all frontend interfaces, internal tools, external websites, presentation templates, AI-generated assets, and multi-language pages. Any AI, designer, or third-party partner producing visual materials for Win-House **must read this specification first** and follow it strictly. This document supersedes all previous versions (v2, v3.0–v3.14.0 are deprecated).
+**[English]** This specification is the unified visual standard for Win-House Group, applicable to all frontend interfaces, internal tools, external websites, presentation templates, AI-generated assets, and multi-language pages. Any AI, designer, or third-party partner producing visual materials for Win-House **must read this specification first** and follow it strictly. This document supersedes all previous versions (v2, v3.0–v3.15.0 are deprecated).
 
-**[简中]** 本规范为文浩集团统一视觉准则,适用于所有 frontend 界面、内部工具、对外网站、演示模板、AI 生成素材与跨语种页面。任何 AI、设计师、外包合作伙伴产出 Win-House 视觉素材前,**必须先读取本规范**并严格遵循。本文件取代过往所有版本(v2、v3.0–v3.14.0 全部废止)。
+**[简中]** 本规范为文浩集团统一视觉准则,适用于所有 frontend 界面、内部工具、对外网站、演示模板、AI 生成素材与跨语种页面。任何 AI、设计师、外包合作伙伴产出 Win-House 视觉素材前,**必须先读取本规范**并严格遵循。本文件取代过往所有版本(v2、v3.0–v3.15.0 全部废止)。
 
 ---
 
@@ -821,10 +821,75 @@ All Win-House design resources are hosted on GitHub Pages (win-house-group.githu
 
 ---
 
-## 📝 12 · Version History · 版本紀錄
+## 📄 12 · Case Study PDF Standard · 個案研討PDF規範 · 案例研讨PDF规范 (v3.16.0)
+
+**[繁中]** 本節定義**編輯型PDF報告**(百億CEO班個案研討、策略白皮書、對外正式報告)的專屬視覺語言,代號 **Editorial Yellow**。此模板體系與網頁設計系統並行:網頁沿用 Gold `#DF9C41` 體系,**編輯型PDF改用單一強調黃 `#FFC400`**,以高對比黑白編輯風呈現。已落地於五份個案報告(日本、中國、美國經常帳、台灣半導體、輝達),經 Tim 驗收為 Production 基準。
+
+**[English]** This section defines the visual language for **editorial PDF reports** (EMBA case studies, strategy whitepapers, formal external reports), codenamed **Editorial Yellow**. It runs in parallel with the web design system: web keeps Gold `#DF9C41`, while **editorial PDFs use a single accent yellow `#FFC400`** in a high-contrast black-and-white editorial style. Production baseline validated across five case reports.
+
+**[简中]** 本节定义**编辑型PDF报告**(EMBA案例研讨、战略白皮书、对外正式报告)的专属视觉语言,代号 **Editorial Yellow**。与网页设计系统并行:网页沿用 Gold `#DF9C41`,**编辑型PDF改用单一强调黄 `#FFC400`**,以高对比黑白编辑风呈现。已在五份案例报告落地为 Production 基准。
+
+### 12.1 Page & Color Tokens · 版面與色彩
+
+| Token | Value | Role |
+|---|---|---|
+| Page | A4 portrait 595×842pt | 固定直式 A4 |
+| `--pdf-margin` | 52pt | 四邊版心邊界 |
+| `--pdf-accent` | `#FFC400` | **唯一強調色**(黃);占比 ≤20% |
+| `--pdf-black` | `#111111` | 標題、主文、黑盒底 |
+| `--pdf-body` | `#333333` | 內文 |
+| `--pdf-grey` | `#555555` | 導言、次要文字 |
+| `--pdf-light` | `#8A8A8A` | 頁尾、註腳 |
+| `--pdf-bg` | `#F4F4F2` | 灰底重點條 |
+| Hero panel | `#111111` 黑底 | 封面數據圖面板;曲線白 `#FFFFFF` 1.3pt,標記點黃 |
+
+**規則**: 黑白灰 ≥80%、黃 ≤20%(延續 80/20 哲學);黃**永不作為內文文字色**,僅用於大數字、標籤、色塊、線條;黑盒內文字用 `#EFEFEF`。
+
+### 12.2 Typography · 字體
+
+| 層級 | 字體 | 大小 | 用途 |
+|---|---|---|---|
+| 封面主標 | Noto Sans TC Black | 30–44pt | 黑色,可雙行 |
+| 頁標題 | Noto Sans TC Black | 黃「問題N.」30pt + 黑副標 16–17pt | 每頁固定組合 |
+| 黃色小標 | Noto Sans TC Black | 9.5pt | `--pdf-accent` |
+| 大數字 | Noto Sans TC Black | 30–46pt + 「.」 | 黃色編號 |
+| 內文 | Noto Sans TC Regular | 7.6–8.5pt / 行距 1.6 | `#333333` |
+| 頁首頁尾 | Bold 8pt / Medium 7.5pt | — | 黑 / `#8A8A8A` |
+
+**技術**: PDF 內嵌 Noto Sans TC(CFF 轉 glyf TTF 後以 reportlab 嵌入);字元集限常用繁中+ASCII,**全形 ＋ ＝ ＞ − 一律改用 ASCII `+ = > -`** 避免缺字方框。
+
+### 12.3 Components · 九大元件
+
+1. **頁首**: 1pt 黑細線橫貫版心 + 右端 4pt 黃色粗段(110pt),左右各置 8pt Bold 小標(左=報告類別、右=個案名)。
+2. **頁尾**: 0.6pt 黑線 + 左「WIN-HOUSE GROUP · 百億CEO班 個案研討」+ 右頁碼(01 格式)。
+3. **封面**: 上緣資訊區(集團名/課程/日期,黃段在左)→ 黑色大標 → 黃色「個 案 分 析 · C A S E S T U D Y」→ 全幅黑底數據圖面板(白色曲線+黃色標記點與註記,左下灰色圖說)→ 底部提問導覽格(黃色數字+Bold短句)。
+4. **黃色大數字區塊**: 「1.」30–46pt 黃 Black + 右側黑色標題與內文;2×2 網格或直列。
+5. **黑盒結論**: 黑底色塊 + 黃色標籤 + `#EFEFEF` 內文;用於總評、判定、關鍵結論,每頁至多一個。
+6. **灰底重點條**: `#F4F4F2` 底 + 左緣 5pt 黃色豎條;用於定義、前提、引言。
+7. **STEP 時間軸**: 0.8pt 橫線 + 刻度豎線分欄;欄內=灰色 step 標 + 黑色 Black 標題 + **黃底黑字評價標籤**(實心黃塊 15pt 高)+ 內文。
+8. **黃條橫向圖**: 黃色實心橫條表相對量值,右側灰色註記;左下 6.8pt 灰色資料說明。
+9. **結論黃線**: 頁末左緣 4pt 黃色豎線 + Bold 9pt 總結文字。
+
+### 12.4 Layout Rules · 版面紀律
+
+- 每份 4–6 頁: 封面 1 頁 + 每題約 1 頁;題多時允許兩題併頁(雙欄)。
+- **禁用 bullet 符號**——一律以黃色大數字區塊或黃色小標分段。
+- 封面數據圖**必須**與個案主題呼應並標記 3–6 個關鍵事件(黃點+7pt 註記)。
+- 成套報告(系列個案)所有版面常數、色彩、元件完全一致,僅內容與封面曲線更換。
+- Logo 配對規則沿用 §07: 深底=白色字標、淺底=黑色字標;封面可省略 Logo 僅用文字標。
+- WINGO 禁止出現在此類正式報告(§08 規則)。
+
+### 12.5 Reference Implementation · 參考實作
+
+Python + reportlab 直接繪製(非 HTML 轉檔),核心 helper: `wrap()` 逐字換行、`para()` 段落、`header()/footer()`、`title2()` 雙行標題、`bignum()` 黃色大數字、`black_box()` 黑盒、`yellow_label()`。基準腳本存於個案專案(make_pdf.py 系列),新報告以此為起點複製。
+
+---
+
+## 📝 13 · Version History · 版本紀錄
 
 | Version | Date | Note |
 |---|---|---|
+| **v3.16.0** | 2026-08-17 | **Production** · New Section 12 **Case Study PDF Standard (Editorial Yellow)**: dedicated visual language for editorial PDF reports (EMBA case studies / whitepapers). A4 · 52pt margins · single accent yellow `#FFC400` (≤20%, never as body text) over black/white/grey ≥80% · embedded Noto Sans TC (Black/Bold/Medium/Regular) · nine components (header yellow segment, cover black data panel, big yellow numerals, black verdict box, grey callout with yellow bar, STEP timeline with solid-yellow verdict tags, yellow bar charts, conclusion yellow line, unified footer) · 4–6 pages per report · no bullets · ASCII substitution rule for fullwidth math glyphs. Validated across five case reports (Japan / China / US current account / Taiwan semiconductors / NVIDIA). Version History renumbered to Section 13. |
 | **v3.15.0** | 2026-06-29 | **Production** · Synced to **KPI Dashboard v17** (Tim-approved implementation). (1) **Chart Gallery → concrete Chart.js rules**: line charts standardized (gray dashed target `#A3A3A3 [5,4]` + solid actual `#2D2A28` 2.5px with gradient fill + prior-period gold dashed `#DF9C41 [2,3]`); radar (gray target ring + filled actual); doughnut (72% cutout + centered-number plugin, over-budget→red); risk gauge as inline SVG segments green→gold→red. Legend bottom + usePointStyle + 9px axes codified. (2) **Achievement three-band scale** added as tokens: green ≥90 `--sem-up` / bronze 70–90 `#AF7231` / red <70 `--sem-down` / empty `--track` #E2DDD6 (also bar track & donut remainder). (3) **Stat/Data Card spec rewritten** to v17: 6 fixed-height 182px cards with expand, numeric hierarchy (28–38px / 700 / −0.02em), `.kbar` progress bar with `barViz` fill logic, weight badge `.ki-w` (blue key / bronze bonus), expand affordance. (4) AI prompt template updated (v17 chart mandate + white logo). |
 | **v3.14.0** | 2026-06-28 | **Production** · (1) **Domain migration**: all brand assets moved from `timfan119` jsDelivr/GitHub-raw to GitHub Pages org `win-house-group.github.io/win-house-brand-assets/`; jsDelivr cache-busting retired. (2) **New asset**: white wordmark `Win-House-Group-wt.png` (Variant 03) for dark backgrounds, with pairing rule. (3) **Spacing +5%**: comfort scale (sp-3→13, sp-4→17, sp-5→25, sp-6→34, sp-7→50, sp-8→67, sp-9→92); `.tag` & `.stat-delta` padding pinned to original `4px 12px`. (4) **Chart Gallery hardened**: rewritten as a strict mandatory spec — chart-selection decision tree, per-chart MUST/NEVER hex rules, semantic-vs-domain-vs-shade separation, pre-ship checklist. Colors/fonts/radius unchanged. |
 | **v3.13.5** | 2026-06-11 | **Production** · Added four registered legal-entity names (Taiwan/HK/Vietnam/Shenzhen) to Formal Document Standard. Purged all EPCOS references from Data Table & typography demos (replaced with TDK part numbers) per permanent exclusion rule. |

@@ -1,19 +1,19 @@
-# Win-House Design System v3.16.0 · Official Specification
+# Win-House Design System v3.18.0 · Official Specification
 
-**版本** Version: v3.16.0 (Production)
+**版本** Version: v3.18.0 (Production)
 **狀態** Status: Active · Mandatory
-**最後更新** Last Updated: 2026-08-17
+**最後更新** Last Updated: 2026-08-18
 **規範負責人** Owner: Tim Fan, CEO, Win-House Group
 
 ---
 
 ## ⚠️ 強制聲明 · MANDATORY NOTICE · 强制声明
 
-**[繁中]** 本規範為文浩集團統一視覺準則,適用於所有 frontend 介面、內部工具、對外網站、簡報範本、AI 生成素材與跨語系頁面。任何 AI、設計師、外包合作夥伴產出 Win-House 視覺素材前,**必須先讀取本規範**並嚴格遵循。本文件取代過往所有版本(v2、v3.0–v3.15.0 全部廢止)。
+**[繁中]** 本規範為文浩集團統一視覺準則,適用於所有 frontend 介面、內部工具、對外網站、簡報範本、AI 生成素材與跨語系頁面。任何 AI、設計師、外包合作夥伴產出 Win-House 視覺素材前,**必須先讀取本規範**並嚴格遵循。本文件取代過往所有版本(v2、v3.0–v3.17.x 全部廢止)。
 
-**[English]** This specification is the unified visual standard for Win-House Group, applicable to all frontend interfaces, internal tools, external websites, presentation templates, AI-generated assets, and multi-language pages. Any AI, designer, or third-party partner producing visual materials for Win-House **must read this specification first** and follow it strictly. This document supersedes all previous versions (v2, v3.0–v3.15.0 are deprecated).
+**[English]** This specification is the unified visual standard for Win-House Group, applicable to all frontend interfaces, internal tools, external websites, presentation templates, AI-generated assets, and multi-language pages. Any AI, designer, or third-party partner producing visual materials for Win-House **must read this specification first** and follow it strictly. This document supersedes all previous versions (v2, v3.0–v3.17.x are deprecated).
 
-**[简中]** 本规范为文浩集团统一视觉准则,适用于所有 frontend 界面、内部工具、对外网站、演示模板、AI 生成素材与跨语种页面。任何 AI、设计师、外包合作伙伴产出 Win-House 视觉素材前,**必须先读取本规范**并严格遵循。本文件取代过往所有版本(v2、v3.0–v3.15.0 全部废止)。
+**[简中]** 本规范为文浩集团统一视觉准则,适用于所有 frontend 界面、内部工具、对外网站、演示模板、AI 生成素材与跨语种页面。任何 AI、设计师、外包合作伙伴产出 Win-House 视觉素材前,**必须先读取本规范**并严格遵循。本文件取代过往所有版本(v2、v3.0–v3.17.x 全部废止)。
 
 ---
 
@@ -821,67 +821,76 @@ All Win-House design resources are hosted on GitHub Pages (win-house-group.githu
 
 ---
 
-## 📄 12 · Case Study PDF Standard · 個案研討PDF規範 · 案例研讨PDF规范 (v3.16.0)
+## 📄 12 · PDF Standard · PDF統一規範 · PDF统一规范 (v3.18.0)
 
-**[繁中]** 本節定義**編輯型PDF報告**(百億CEO班個案研討、策略白皮書、對外正式報告)的專屬視覺語言,代號 **Editorial Yellow**。此模板體系與網頁設計系統並行:網頁沿用 Gold `#DF9C41` 體系,**編輯型PDF改用單一強調黃 `#FFC400`**,以高對比黑白編輯風呈現。已落地於五份個案報告(日本、中國、美國經常帳、台灣半導體、輝達),經 Tim 驗收為 Production 基準。
+**[繁中]** 本節定義**所有PDF輸出的統一視覺標準**——課程筆記、培訓教材、內部報告、管理手冊、EMBA個案分析、策略白皮書一體適用,代號 **極簡編輯白棕 Minimal Editorial Warm-Neutral**。純白底、大量留白、髮絲線、字距拉寬粗黑標題與大地色系(炭黑/暖棕/米/灰褐),呈現雜誌式極簡編輯風。**前 Editorial Yellow 個案標準(原§12, v3.16.0)已廢止**,既有五份個案報告視為歷史版本,新產出一律採用本標準。首個 Production 案例:《落實執行力創造團隊效益》課程筆記(2026-08,繁/簡雙版)。
 
-**[English]** This section defines the visual language for **editorial PDF reports** (EMBA case studies, strategy whitepapers, formal external reports), codenamed **Editorial Yellow**. It runs in parallel with the web design system: web keeps Gold `#DF9C41`, while **editorial PDFs use a single accent yellow `#FFC400`** in a high-contrast black-and-white editorial style. Production baseline validated across five case reports.
+**[English]** This section defines the **unified visual standard for all PDF output** — course notes, training materials, internal reports, manuals, EMBA case studies, and strategy whitepapers alike — codenamed **Minimal Editorial Warm-Neutral**: pure white pages, generous whitespace, hairline rules, tracked-out heavy titles, and a warm-neutral palette (charcoal / warm brown / beige / taupe) in a magazine-minimal editorial style. **The former Editorial Yellow case standard (old §12, v3.16.0) is retired**; the five existing case reports are historical, and all new output uses this standard. First production case: "Execution & Team Effectiveness" course notes (2026-08, TC/SC editions).
 
-**[简中]** 本节定义**编辑型PDF报告**(EMBA案例研讨、战略白皮书、对外正式报告)的专属视觉语言,代号 **Editorial Yellow**。与网页设计系统并行:网页沿用 Gold `#DF9C41`,**编辑型PDF改用单一强调黄 `#FFC400`**,以高对比黑白编辑风呈现。已在五份案例报告落地为 Production 基准。
+**[简中]** 本节定义**所有PDF输出的统一视觉标准**——课程笔记、培训教材、内部报告、管理手册、EMBA案例分析、战略白皮书一体适用,代号 **极简编辑白棕 Minimal Editorial Warm-Neutral**。纯白底、大量留白、发丝线、字距拉宽粗黑标题与大地色系。**前 Editorial Yellow 案例标准(原§12, v3.16.0)已废止**,新产出一律采用本标准。首个 Production 案例:《落实执行力创造团队效益》课程笔记(繁/简双版)。
 
 ### 12.1 Page & Color Tokens · 版面與色彩
 
 | Token | Value | Role |
 |---|---|---|
-| Page | A4 portrait 595×842pt | 固定直式 A4 |
-| `--pdf-margin` | 52pt | 四邊版心邊界 |
-| `--pdf-accent` | `#FFC400` | **唯一強調色**(黃);占比 ≤20% |
-| `--pdf-black` | `#111111` | 標題、主文、黑盒底 |
-| `--pdf-body` | `#333333` | 內文 |
-| `--pdf-grey` | `#555555` | 導言、次要文字 |
-| `--pdf-light` | `#8A8A8A` | 頁尾、註腳 |
-| `--pdf-bg` | `#F4F4F2` | 灰底重點條 |
-| Hero panel | `#111111` 黑底 | 封面數據圖面板;曲線白 `#FFFFFF` 1.3pt,標記點黃 |
+| Page | A4 portrait 595×842pt | 固定直式 A4;**頁面純白**,禁止整頁鋪色 |
+| Margins | 左右 20mm · 上 26mm · 下 22mm | 版心邊界 |
+| `--doc-char` | `#2B2A28` | 炭黑:內文、標題主色 |
+| `--doc-grey` | `#8A8580` | 靜灰:輔助文字、頁首頁尾、英文 kicker |
+| `--doc-line` | `#D8D2CA` | 髮絲線:分隔線、表格列線(0.4–0.5pt) |
+| `--doc-beige` | `#F3EEE7` | 米面板:引言/金句面板底 |
+| `--doc-sand` | `#E4D8C8` | 淺砂:追蹤表排程色塊(W1–W5) |
+| `--doc-taupe` | `#C9B49C` | 灰褐:章節大號碼、面板左邊線(1.4pt) |
+| `--doc-brown` | `#8B6A4F` | 暖棕:kicker、表頭文字、強調 |
+| `--doc-deep` | `#5C4736` | 深棕:頁碼、表格首欄 |
 
-**規則**: 黑白灰 ≥80%、黃 ≤20%(延續 80/20 哲學);黃**永不作為內文文字色**,僅用於大數字、標籤、色塊、線條;黑盒內文字用 `#EFEFEF`。
+**規則**: 白+黑灰為主體,大地色系為輔;Logo Red `#E1251B` 依 §07 僅限 Logo;PDF 內**禁用** `#FFC400`(原 Editorial Yellow 已廢止);網頁系統仍沿用 Gold `#DF9C41`,兩者互不越界。
 
 ### 12.2 Typography · 字體
 
-| 層級 | 字體 | 大小 | 用途 |
-|---|---|---|---|
-| 封面主標 | Noto Sans TC Black | 30–44pt | 黑色,可雙行 |
-| 頁標題 | Noto Sans TC Black | 黃「問題N.」30pt + 黑副標 16–17pt | 每頁固定組合 |
-| 黃色小標 | Noto Sans TC Black | 9.5pt | `--pdf-accent` |
-| 大數字 | Noto Sans TC Black | 30–46pt + 「.」 | 黃色編號 |
-| 內文 | Noto Sans TC Regular | 7.6–8.5pt / 行距 1.6 | `#333333` |
-| 頁首頁尾 | Bold 8pt / Medium 7.5pt | — | 黑 / `#8A8A8A` |
+| 層級 | 字重 | 大小/行距 | 顏色 | 備註 |
+|---|---|---|---|---|
+| 主標題 | Black 900 | 30/44pt | `--doc-char` | **中文字距拉寬**(每字間 1 全形空格) |
+| 章節標題 | Bold 700 | 15.5/21pt | `--doc-char` | 字距拉寬;KeepTogether 防孤行 |
+| 章節號碼 | Light 300 | 17pt | `--doc-taupe` | 兩位數 00–99,置標題左側 13mm 欄 |
+| 英文 kicker | Regular 400 | 7.8/11pt | `--doc-grey` | 全大寫,置章節標題下 |
+| 內文 | Regular 400 | 9.3/16.5pt | `--doc-char` | 段後 5pt;行內強調用 Bold |
+| 引言面板 | Light 300 | 11.5/19pt | `--doc-char` | — |
+| 表頭 | Medium 500 | 8.2/12pt | `--doc-brown` | 字距拉寬 |
+| 表格首欄/內容 | Medium/Regular | 8.8/14pt | `--doc-deep` / `--doc-char` | — |
+| 頁首頁尾 | Regular 400 | 7.2–7.5pt | `--doc-grey` | 拉丁字母間空格 |
 
-**技術**: PDF 內嵌 Noto Sans TC(CFF 轉 glyf TTF 後以 reportlab 嵌入);字元集限常用繁中+ASCII,**全形 ＋ ＝ ＞ − 一律改用 ASCII `+ = > -`** 避免缺字方框。
+**字型**: 繁體 Noto Sans TC / 簡體 Noto Sans SC,五字重靜態實例(Light 300 / Regular 400 / Medium 500 / Bold 700 / Black 900)。
 
-### 12.3 Components · 九大元件
+### 12.3 Components · 四大元件
 
-1. **頁首**: 1pt 黑細線橫貫版心 + 右端 4pt 黃色粗段(110pt),左右各置 8pt Bold 小標(左=報告類別、右=個案名)。
-2. **頁尾**: 0.6pt 黑線 + 左「WIN-HOUSE GROUP · 百億CEO班 個案研討」+ 右頁碼(01 格式)。
-3. **封面**: 上緣資訊區(集團名/課程/日期,黃段在左)→ 黑色大標 → 黃色「個 案 分 析 · C A S E S T U D Y」→ 全幅黑底數據圖面板(白色曲線+黃色標記點與註記,左下灰色圖說)→ 底部提問導覽格(黃色數字+Bold短句)。
-4. **黃色大數字區塊**: 「1.」30–46pt 黃 Black + 右側黑色標題與內文;2×2 網格或直列。
-5. **黑盒結論**: 黑底色塊 + 黃色標籤 + `#EFEFEF` 內文;用於總評、判定、關鍵結論,每頁至多一個。
-6. **灰底重點條**: `#F4F4F2` 底 + 左緣 5pt 黃色豎條;用於定義、前提、引言。
-7. **STEP 時間軸**: 0.8pt 橫線 + 刻度豎線分欄;欄內=灰色 step 標 + 黑色 Black 標題 + **黃底黑字評價標籤**(實心黃塊 15pt 高)+ 內文。
-8. **黃條橫向圖**: 黃色實心橫條表相對量值,右側灰色註記;左下 6.8pt 灰色資料說明。
-9. **結論黃線**: 頁末左緣 4pt 黃色豎線 + Bold 9pt 總結文字。
+1. **章節標題組**: 灰褐大號碼(13mm 欄)+ Bold 中文標題(字距拉寬)+ 灰色全大寫英文 kicker + 下方 0.5pt 髮絲線;標題前距 7mm、線後距 6mm。
+2. **引言/金句面板**: `--doc-beige` 底 + `--doc-taupe` 1.4pt 左邊線;內距上下 9pt、左右 11pt;Light 字重。
+3. **資料表格(去格線雜誌式)**: 表頭下與表底 0.9pt `--doc-char` 粗線、列間 0.4pt 髮絲線;**無直線、無底色**;表頭暖棕 Medium 字距拉寬、首欄深棕 Medium;儲存格內距上下 5pt / 左 2pt / 右 8pt。
+4. **追蹤表(周進度表型)**: 保留 0.4pt 髮絲全格線 + 上下 0.9pt 粗線;排程週期以 `--doc-sand` 色塊標示。
 
 ### 12.4 Layout Rules · 版面紀律
 
-- 每份 4–6 頁: 封面 1 頁 + 每題約 1 頁;題多時允許兩題併頁(雙欄)。
-- **禁用 bullet 符號**——一律以黃色大數字區塊或黃色小標分段。
-- 封面數據圖**必須**與個案主題呼應並標記 3–6 個關鍵事件(黃點+7pt 註記)。
-- 成套報告(系列個案)所有版面常數、色彩、元件完全一致,僅內容與封面曲線更換。
-- Logo 配對規則沿用 §07: 深底=白色字標、淺底=黑色字標;封面可省略 Logo 僅用文字標。
-- WINGO 禁止出現在此類正式報告(§08 規則)。
+- 頁首: 0.5pt 髮絲線 + 左「W I N - H O U S E   G R O U P」+ 右文件類別(全大寫、字母間空格)。
+- 頁尾: 0.5pt 髮絲線 + 左密級聲明(如「內部管理學習資料·請勿對外流通」)+ 右兩位數頁碼(`--doc-deep`)。
+- 引用外部課程/教材須附來源與「內部使用、不得對外重製」聲明;WINGO 未經核准不得出現(§08)。
+- 發往大陸團隊之培訓材料:職務用**稱謂不用人名**,利於人事異動不改版。
 
-### 12.5 Reference Implementation · 參考實作
+### 12.5 Font Engineering · 字型工程(必守)
 
-Python + reportlab 直接繪製(非 HTML 轉檔),核心 helper: `wrap()` 逐字換行、`para()` 段落、`header()/footer()`、`title2()` 雙行標題、`bignum()` 黃色大數字、`black_box()` 黑盒、`yellow_label()`。基準腳本存於個案專案(make_pdf.py 系列),新報告以此為起點複製。
+1. 來源: google/fonts 變體字型 `NotoSansTC[wght].ttf` / `NotoSansSC[wght].ttf`。
+2. fontTools instancer 產生靜態實例**必須 `inplace=True`**(預設回傳副本,直接存原檔會得到未固定字重)。
+3. **必須改寫 name table**(nameID 1/2/4/6/16/17)給每個字重唯一 PostScript 名稱——否則 reportlab 依 PSName 去重,五字重塌縮成單一字重(已實測踩坑)。
+4. 產出後以 `pdffonts` 驗證各字重獨立嵌入(NotoSansTC-Light / -Regular / -Bold / -Black…)。
+5. 禁用 Unicode 上下標與全形數學符號,一律 ASCII `+ = > -`,避免缺字方框。
+
+### 12.6 SC Edition · 簡體版產出
+
+版式與 token 完全共用;字型換 Noto Sans SC;文字以 OpenCC `tw2s` 純字元轉換(**不做用語轉換**,保留集團術語);檔名加後綴 `_简体版`。
+
+### 12.7 Reference Implementation · 參考實作
+
+Python + reportlab 直繪(非 HTML 轉檔)。核心: BaseDocTemplate + onPage 頁首尾、`sp()` 中文字距拉寬、`h1()` 章節標題組、`panel()` 米色面板、`tbl()` 去格線表格。基準腳本 `make_pdf_minimal.py` / `make_pdf_sc.py`(課程筆記專案),新文件以此複製起步。
 
 ---
 
@@ -889,6 +898,8 @@ Python + reportlab 直接繪製(非 HTML 轉檔),核心 helper: `wrap()` 逐字�
 
 | Version | Date | Note |
 |---|---|---|
+| **v3.18.0** | 2026-08-18 | **Production** · **PDF standards unified**: former Section 12 **Case Study PDF Standard (Editorial Yellow)** removed entirely; **Minimal Editorial Warm-Neutral** promoted to Section 12 as the single standard for ALL PDF output (case studies, whitepapers, course notes, training materials, internal reports, manuals). `#FFC400` now banned in PDFs (web keeps Gold `#DF9C41`). Existing five Editorial Yellow case reports treated as historical. Version History renumbered back to Section 13. |
+| **v3.17.0** | 2026-08-18 | **Production** · New Section 13 **Document PDF Standard (Minimal Editorial Warm-Neutral · 極簡編輯白棕)**: default standard for all document-type PDFs (course notes, training materials, internal reports, manuals). Pure-white A4 (20/26/22mm margins) · warm-neutral palette (charcoal #2B2A28 · brown #8B6A4F · beige #F3EEE7 · taupe #C9B49C · hairline #D8D2CA) · tracked-out Black/Bold titles with taupe section numerals + EN kickers · four components (section header group, beige quote panel, borderless magazine table, tracker table with sand blocks) · font engineering rules (variable-font instancer `inplace=True` + unique name-table per weight to prevent reportlab weight collapse, verified via pdffonts) · SC edition via Noto Sans SC + OpenCC tw2s (no term conversion) · title-not-name rule for CN-bound training docs. Scope split codified: §12 Editorial Yellow = editorial case reports; §13 = document default; never mixed. Section 12 intro cross-ref added; Version History renumbered to Section 14. First production: Execution & Team Effectiveness course notes (TC/SC). |
 | **v3.16.0** | 2026-08-17 | **Production** · New Section 12 **Case Study PDF Standard (Editorial Yellow)**: dedicated visual language for editorial PDF reports (EMBA case studies / whitepapers). A4 · 52pt margins · single accent yellow `#FFC400` (≤20%, never as body text) over black/white/grey ≥80% · embedded Noto Sans TC (Black/Bold/Medium/Regular) · nine components (header yellow segment, cover black data panel, big yellow numerals, black verdict box, grey callout with yellow bar, STEP timeline with solid-yellow verdict tags, yellow bar charts, conclusion yellow line, unified footer) · 4–6 pages per report · no bullets · ASCII substitution rule for fullwidth math glyphs. Validated across five case reports (Japan / China / US current account / Taiwan semiconductors / NVIDIA). Version History renumbered to Section 13. |
 | **v3.15.0** | 2026-06-29 | **Production** · Synced to **KPI Dashboard v17** (Tim-approved implementation). (1) **Chart Gallery → concrete Chart.js rules**: line charts standardized (gray dashed target `#A3A3A3 [5,4]` + solid actual `#2D2A28` 2.5px with gradient fill + prior-period gold dashed `#DF9C41 [2,3]`); radar (gray target ring + filled actual); doughnut (72% cutout + centered-number plugin, over-budget→red); risk gauge as inline SVG segments green→gold→red. Legend bottom + usePointStyle + 9px axes codified. (2) **Achievement three-band scale** added as tokens: green ≥90 `--sem-up` / bronze 70–90 `#AF7231` / red <70 `--sem-down` / empty `--track` #E2DDD6 (also bar track & donut remainder). (3) **Stat/Data Card spec rewritten** to v17: 6 fixed-height 182px cards with expand, numeric hierarchy (28–38px / 700 / −0.02em), `.kbar` progress bar with `barViz` fill logic, weight badge `.ki-w` (blue key / bronze bonus), expand affordance. (4) AI prompt template updated (v17 chart mandate + white logo). |
 | **v3.14.0** | 2026-06-28 | **Production** · (1) **Domain migration**: all brand assets moved from `timfan119` jsDelivr/GitHub-raw to GitHub Pages org `win-house-group.github.io/win-house-brand-assets/`; jsDelivr cache-busting retired. (2) **New asset**: white wordmark `Win-House-Group-wt.png` (Variant 03) for dark backgrounds, with pairing rule. (3) **Spacing +5%**: comfort scale (sp-3→13, sp-4→17, sp-5→25, sp-6→34, sp-7→50, sp-8→67, sp-9→92); `.tag` & `.stat-delta` padding pinned to original `4px 12px`. (4) **Chart Gallery hardened**: rewritten as a strict mandatory spec — chart-selection decision tree, per-chart MUST/NEVER hex rules, semantic-vs-domain-vs-shade separation, pre-ship checklist. Colors/fonts/radius unchanged. |

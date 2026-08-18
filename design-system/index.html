@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Win-House Design System v3.16.0</title>
+<title>Win-House Design System v3.18.0</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
 /* ============================================================
-   Win-House Design System v3.16.0 (Tri-lingual, WINGO storytelling)
+   Win-House Design System v3.18.0 (Tri-lingual, WINGO storytelling)
    繁中 · 简中 · English
    Last Updated: 2026-06-28
    ============================================================ */
@@ -1551,7 +1551,7 @@ html[data-lang="en"] .wingo-origin-label { font-family: var(--font-ui); }
       src="https://win-house-group.github.io/win-house-brand-assets/Win-House-Group-bk.png"
       alt="Win-House Group"
       onerror="this.onerror=null;this.src='https://win-house-group.github.io/win-house-brand-assets/Win-House-Group-bk.png';" />
-    <span class="brand-version">DS v3.16.0</span>
+    <span class="brand-version">DS v3.18.0</span>
   </div>
   <div class="lang-switch" role="group" aria-label="Language">
     <button data-lang-btn="zh-Hant" class="active">繁中</button>
@@ -1626,10 +1626,10 @@ html[data-lang="en"] .wingo-origin-label { font-family: var(--font-ui); }
       <span data-lang-zh-hans>仪表板规范</span>
       <span data-lang-en>Dashboard</span>
     </a>
-    <a href="#casepdf">
-      <span data-lang-zh-hant>個案PDF規範</span>
-      <span data-lang-zh-hans>案例PDF规范</span>
-      <span data-lang-en>Case Study PDF</span>
+    <a href="#docpdf">
+      <span data-lang-zh-hant>PDF統一規範</span>
+      <span data-lang-zh-hans>PDF统一规范</span>
+      <span data-lang-en>PDF Standard</span>
     </a>
 
     <h4 data-lang-zh-hant>品牌資產</h4>
@@ -1661,7 +1661,7 @@ html[data-lang="en"] .wingo-origin-label { font-family: var(--font-ui); }
 
     <!-- OVERVIEW -->
     <section id="overview" class="section">
-      <div class="section-eyebrow">v3.16.0 · Case Study PDF Edition</div>
+      <div class="section-eyebrow">v3.18.0 · Unified PDF Edition</div>
       <h1 class="section-title">Design System</h1>
       <div class="section-subtitle">
         <span data-lang-zh-hant>Win-House 集團視覺語言 — 統一強制準則</span>
@@ -3362,33 +3362,36 @@ html[data-lang="en"] .wingo-origin-label { font-family: var(--font-ui); }
     </section>
 
     <!-- TOKEN TABLE -->
-    <!-- CASE STUDY PDF STANDARD (v3.16.0) -->
-    <section id="casepdf" class="section">
-      <div class="section-eyebrow">12 · Pattern · Editorial Yellow</div>
-      <h2 class="section-title">Case Study PDF</h2>
+    <!-- PDF STANDARD · UNIFIED (v3.18.0) -->
+    <section id="docpdf" class="section">
+      <div class="section-eyebrow">12 · Pattern · Minimal Editorial</div>
+      <h2 class="section-title">PDF Standard</h2>
       <div class="section-subtitle">
-        <span data-lang-zh-hant>個案研討PDF規範 · 編輯型報告專屬視覺語言</span>
-        <span data-lang-zh-hans>案例研讨PDF规范 · 编辑型报告专属视觉语言</span>
-        <span data-lang-en>Editorial PDF standard for case studies &amp; whitepapers</span>
+        <span data-lang-zh-hant>PDF統一規範 · 極簡編輯白棕標準(所有PDF一體適用)</span>
+        <span data-lang-zh-hans>PDF统一规范 · 极简编辑白棕标准(所有PDF一体适用)</span>
+        <span data-lang-en>Unified standard for ALL PDF output · Minimal Editorial Warm-Neutral</span>
       </div>
       <p class="section-intro">
-        <span data-lang-zh-hant>百億CEO班個案研討、策略白皮書等編輯型PDF的專屬體系,代號 Editorial Yellow。與網頁系統並行:網頁沿用 Gold #DF9C41,編輯型PDF改用單一強調黃 #FFC400,高對比黑白編輯風。已於五份個案報告(日本/中國/美國經常帳/台灣半導體/輝達)落地為 Production 基準。</span>
-        <span data-lang-zh-hans>EMBA案例研讨、战略白皮书等编辑型PDF的专属体系,代号 Editorial Yellow。与网页系统并行:网页沿用 Gold #DF9C41,编辑型PDF改用单一强调黄 #FFC400,高对比黑白编辑风。已于五份案例报告落地为 Production 基准。</span>
-        <span data-lang-en>Dedicated system for editorial PDFs (EMBA case studies, whitepapers), codenamed Editorial Yellow. Runs parallel to the web system: web keeps Gold #DF9C41; editorial PDFs use a single accent yellow #FFC400 in a high-contrast black-and-white editorial style. Production baseline validated across five case reports.</span>
+        <span data-lang-zh-hant>所有PDF輸出的統一標準:個案分析、策略白皮書、課程筆記、培訓教材、內部報告、管理手冊一體適用。純白底、大量留白、髮絲線、字距拉寬粗黑標題、大地色系(炭黑/暖棕/米/灰褐)。前 Editorial Yellow 個案標準(v3.16.0)已廢止,PDF 內禁用 #FFC400;網頁系統仍沿用 Gold #DF9C41。首個 Production 案例:《落實執行力創造團隊效益》課程筆記(繁/簡雙版)。</span>
+        <span data-lang-zh-hans>所有PDF输出的统一标准:案例分析、战略白皮书、课程笔记、培训教材、内部报告、管理手册一体适用。纯白底、大量留白、发丝线、字距拉宽粗黑标题、大地色系。前 Editorial Yellow 案例标准(v3.16.0)已废止,PDF 内禁用 #FFC400;网页系统仍沿用 Gold #DF9C41。首个 Production 案例:《落实执行力创造团队效益》课程笔记(繁/简双版)。</span>
+        <span data-lang-en>Unified standard for ALL PDF output — case studies, whitepapers, course notes, training materials, internal reports, manuals. Pure-white pages, generous whitespace, hairline rules, tracked-out heavy titles, warm-neutral palette. The former Editorial Yellow case standard (v3.16.0) is retired; #FFC400 is banned in PDFs while the web keeps Gold #DF9C41. First production: Execution &amp; Team Effectiveness course notes (TC/SC).</span>
       </p>
 
-      <!-- Mini cover preview -->
-      <div style="background:#111111;border-radius:16px;padding:28px 28px 22px;margin:20px 0;">
-        <div style="height:1px;background:#FFFFFF;opacity:.35;position:relative;margin-bottom:22px;">
-          <div style="position:absolute;right:0;top:-2px;width:96px;height:4px;background:#FFC400;"></div>
+      <!-- Mini page preview -->
+      <div style="background:#FFFFFF;border:1px solid #ECECEA;border-radius:16px;padding:28px;margin:20px 0;box-shadow:0 1px 3px rgba(28,25,20,.06);">
+        <div style="display:flex;justify-content:space-between;font-size:9px;letter-spacing:.28em;color:#8A8580;border-bottom:1px solid #D8D2CA;padding-bottom:8px;margin-bottom:20px;">
+          <span>WIN-HOUSE GROUP</span><span>EXECUTIVE LEARNING NOTES</span>
         </div>
-        <div style="font-weight:900;font-size:26px;line-height:1.25;color:#FFFFFF;">個案分析標題</div>
-        <div style="font-weight:900;font-size:11px;letter-spacing:.35em;color:#FFC400;margin:10px 0 18px;">個 案 分 析 · CASE STUDY</div>
-        <svg viewBox="0 0 520 90" style="width:100%;display:block;">
-          <polyline points="10,62 70,30 120,14 170,44 230,56 290,50 350,64 410,40 470,20 510,10" fill="none" stroke="#FFFFFF" stroke-width="2"/>
-          <circle cx="120" cy="14" r="4" fill="#FFC400"/><circle cx="350" cy="64" r="4" fill="#FFC400"/><circle cx="510" cy="10" r="4" fill="#FFC400"/>
-        </svg>
-        <div style="font-size:10px;color:#8A8A8A;margin-top:10px;">封面黑底數據圖面板:白色曲線 + 黃色事件標記 + 灰色圖說</div>
+        <div style="font-size:10px;letter-spacing:.3em;color:#8B6A4F;margin-bottom:8px;">TRENDS IN MANAGEMENT / 2026.08</div>
+        <div style="font-weight:900;font-size:24px;letter-spacing:.35em;color:#2B2A28;line-height:1.5;">落實執行力<br>創造團隊效益</div>
+        <div style="background:#F3EEE7;border-left:3px solid #C9B49C;padding:12px 14px;margin:18px 0;font-weight:300;font-size:13px;color:#2B2A28;">規劃 → 執行 → 績效。引言金句面板:米底 + 灰褐左邊線。</div>
+        <div style="display:flex;align-items:baseline;gap:10px;margin-top:6px;">
+          <span style="font-weight:300;font-size:16px;color:#C9B49C;">01</span>
+          <span style="font-weight:700;font-size:14px;letter-spacing:.3em;color:#2B2A28;">章節標題組</span>
+        </div>
+        <div style="font-size:8px;letter-spacing:.18em;color:#8A8580;margin:2px 0 6px 26px;">SECTION HEADER GROUP</div>
+        <div style="border-bottom:1px solid #D8D2CA;"></div>
+        <div style="font-size:10px;color:#8A8580;margin-top:10px;">頁面純白 · 髮絲線 · 去格線表格(僅上下粗線) · 追蹤表排程用淺砂 #E4D8C8 色塊</div>
       </div>
 
       <div class="card" style="margin-bottom:16px;">
@@ -3402,66 +3405,63 @@ html[data-lang="en"] .wingo-origin-label { font-family: var(--font-ui); }
             <span data-lang-zh-hant>用途</span><span data-lang-zh-hans>用途</span><span data-lang-en>Usage</span>
           </th></tr></thead>
           <tbody>
-            <tr><td class="token">page</td><td class="value">A4 · 595×842pt</td><td>
-              <span data-lang-zh-hant>固定直式 A4,版心邊界 52pt</span>
-              <span data-lang-zh-hans>固定竖版 A4,版心边界 52pt</span>
-              <span data-lang-en>Portrait A4, 52pt margins</span></td></tr>
-            <tr><td class="token">--pdf-accent</td><td class="value">#FFC400</td><td>
-              <span data-lang-zh-hant>唯一強調色(≤20%);永不作內文文字色</span>
-              <span data-lang-zh-hans>唯一强调色(≤20%);永不作正文文字色</span>
-              <span data-lang-en>Single accent (≤20%); never as body text</span></td></tr>
-            <tr><td class="token">--pdf-black</td><td class="value">#111111</td><td>
-              <span data-lang-zh-hant>標題、主文、黑盒底、Hero面板</span>
-              <span data-lang-zh-hans>标题、正文、黑盒底、Hero面板</span>
-              <span data-lang-en>Titles, headings, verdict box, hero panel</span></td></tr>
-            <tr><td class="token">--pdf-body</td><td class="value">#333333</td><td>
-              <span data-lang-zh-hant>內文</span><span data-lang-zh-hans>正文</span><span data-lang-en>Body text</span></td></tr>
-            <tr><td class="token">--pdf-grey / light</td><td class="value">#555555 / #8A8A8A</td><td>
-              <span data-lang-zh-hant>導言 / 頁尾註腳</span>
-              <span data-lang-zh-hans>导言 / 页脚注脚</span>
-              <span data-lang-en>Intro / footer &amp; footnotes</span></td></tr>
-            <tr><td class="token">--pdf-bg</td><td class="value">#F4F4F2</td><td>
-              <span data-lang-zh-hant>灰底重點條(左緣 5pt 黃豎條)</span>
-              <span data-lang-zh-hans>灰底重点条(左缘 5pt 黄竖条)</span>
-              <span data-lang-en>Grey callout (5pt yellow left bar)</span></td></tr>
-            <tr><td class="token">font</td><td class="value">Noto Sans TC</td><td>
-              <span data-lang-zh-hant>Black 標題/大數字 · Bold 副標 · Medium 圖說 · Regular 內文 7.6–8.5pt 行距1.6</span>
-              <span data-lang-zh-hans>Black 标题/大数字 · Bold 副标 · Medium 图说 · Regular 正文 7.6–8.5pt 行距1.6</span>
-              <span data-lang-en>Black titles/numerals · Bold subheads · Medium captions · Regular body 7.6–8.5pt</span></td></tr>
+            <tr><td class="token">page</td><td class="value">A4 · 純白</td><td>
+              <span data-lang-zh-hant>版心:左右20mm·上26mm·下22mm;禁止整頁鋪色</span>
+              <span data-lang-zh-hans>版心:左右20mm·上26mm·下22mm;禁止整页铺色</span>
+              <span data-lang-en>Margins 20/26/22mm; never tint the full page</span></td></tr>
+            <tr><td class="token">--doc-char</td><td class="value">#2B2A28</td><td>
+              <span data-lang-zh-hant>炭黑:內文與標題主色</span>
+              <span data-lang-zh-hans>炭黑:正文与标题主色</span>
+              <span data-lang-en>Charcoal: body &amp; titles</span></td></tr>
+            <tr><td class="token">--doc-grey</td><td class="value">#8A8580</td><td>
+              <span data-lang-zh-hant>靜灰:輔助文字、頁首尾、英文 kicker</span>
+              <span data-lang-zh-hans>静灰:辅助文字、页首尾、英文 kicker</span>
+              <span data-lang-en>Muted grey: aux text, header/footer, kickers</span></td></tr>
+            <tr><td class="token">--doc-line</td><td class="value">#D8D2CA</td><td>
+              <span data-lang-zh-hant>髮絲線 0.4–0.5pt:分隔線、表格列線</span>
+              <span data-lang-zh-hans>发丝线 0.4–0.5pt:分隔线、表格列线</span>
+              <span data-lang-en>Hairline 0.4–0.5pt: dividers &amp; table rows</span></td></tr>
+            <tr><td class="token">--doc-beige / sand</td><td class="value">#F3EEE7 / #E4D8C8</td><td>
+              <span data-lang-zh-hant>米面板(引言) / 淺砂(追蹤表排程色塊)</span>
+              <span data-lang-zh-hans>米面板(引言) / 浅砂(跟踪表排程色块)</span>
+              <span data-lang-en>Beige quote panel / sand tracker blocks</span></td></tr>
+            <tr><td class="token">--doc-taupe / brown / deep</td><td class="value">#C9B49C / #8B6A4F / #5C4736</td><td>
+              <span data-lang-zh-hant>灰褐(章節號碼·面板邊線) / 暖棕(kicker·表頭) / 深棕(頁碼·表格首欄)</span>
+              <span data-lang-zh-hans>灰褐(章节号码·面板边线) / 暖棕(kicker·表头) / 深棕(页码·表格首栏)</span>
+              <span data-lang-en>Taupe (numerals, panel bar) / brown (kickers, headers) / deep (page no., first col)</span></td></tr>
+            <tr><td class="token">font</td><td class="value">Noto Sans TC / SC</td><td>
+              <span data-lang-zh-hant>Black 900 主標 · Bold 700 章節標 · Light 300 號碼與引言 · Regular 內文 9.3pt;主標與章節標**中文字距拉寬**</span>
+              <span data-lang-zh-hans>Black 900 主标 · Bold 700 章节标 · Light 300 号码与引言 · Regular 正文 9.3pt;主标与章节标**中文字距拉宽**</span>
+              <span data-lang-en>Black 900 titles · Bold 700 sections · Light 300 numerals/quotes · Regular body 9.3pt; CJK tracked-out titles</span></td></tr>
           </tbody>
         </table>
       </div>
 
       <div class="card" style="margin-bottom:16px;">
         <h3 style="margin-top:0;">
-          <span data-lang-zh-hant>九大元件</span>
-          <span data-lang-zh-hans>九大组件</span>
-          <span data-lang-en>Nine Components</span>
+          <span data-lang-zh-hant>四大元件</span>
+          <span data-lang-zh-hans>四大组件</span>
+          <span data-lang-en>Four Components</span>
         </h3>
         <ol style="margin:0;padding-left:20px;line-height:1.9;font-size:14px;">
-          <li><span data-lang-zh-hant>頁首:1pt 黑細線 + 右端 4pt×110pt 黃色粗段 + 左右 8pt Bold 小標</span><span data-lang-zh-hans>页首:1pt 黑细线 + 右端 4pt×110pt 黄色粗段 + 左右 8pt Bold 小标</span><span data-lang-en>Header: 1pt black rule + 4pt×110pt yellow segment + 8pt bold labels</span></li>
-          <li><span data-lang-zh-hant>頁尾:0.6pt 黑線 + 課程署名 + 兩位數頁碼</span><span data-lang-zh-hans>页脚:0.6pt 黑线 + 课程署名 + 两位数页码</span><span data-lang-en>Footer: 0.6pt rule + program credit + 2-digit page no.</span></li>
-          <li><span data-lang-zh-hant>封面:資訊區 → 黑色大標(30–44pt)→ 黃色 CASE STUDY 字距標 → 黑底數據圖 → 提問導覽格</span><span data-lang-zh-hans>封面:信息区 → 黑色大标 → 黄色 CASE STUDY → 黑底数据图 → 提问导览格</span><span data-lang-en>Cover: info block → black title → yellow tracked label → black data panel → question grid</span></li>
-          <li><span data-lang-zh-hant>黃色大數字區塊「1.」30–46pt,2×2 網格或直列;取代所有 bullet</span><span data-lang-zh-hans>黄色大数字区块「1.」30–46pt;取代所有 bullet</span><span data-lang-en>Big yellow numerals "1." 30–46pt; replaces all bullets</span></li>
-          <li><span data-lang-zh-hant>黑盒結論:黑底 + 黃標籤 + #EFEFEF 內文;每頁至多一個</span><span data-lang-zh-hans>黑盒结论:黑底 + 黄标签 + #EFEFEF 正文;每页至多一个</span><span data-lang-en>Black verdict box: yellow label + #EFEFEF body; max one per page</span></li>
-          <li><span data-lang-zh-hant>灰底重點條:#F4F4F2 + 左緣 5pt 黃豎條(定義/前提/引言)</span><span data-lang-zh-hans>灰底重点条:#F4F4F2 + 左缘 5pt 黄竖条</span><span data-lang-en>Grey callout with 5pt yellow left bar (definitions/premises/quotes)</span></li>
-          <li><span data-lang-zh-hant>STEP 時間軸:0.8pt 橫線 + 刻度分欄 + 黃底黑字評價標籤</span><span data-lang-zh-hans>STEP 时间轴:0.8pt 横线 + 刻度分栏 + 黄底黑字评价标签</span><span data-lang-en>STEP timeline: 0.8pt rule + ticks + solid-yellow verdict tags</span></li>
-          <li><span data-lang-zh-hant>黃條橫向圖:黃色實心橫條 + 灰色註記 + 6.8pt 資料說明</span><span data-lang-zh-hans>黄条横向图:黄色实心横条 + 灰色注记</span><span data-lang-en>Yellow horizontal bars + grey annotations + 6.8pt data note</span></li>
-          <li><span data-lang-zh-hant>結論黃線:頁末左緣 4pt 黃色豎線 + Bold 9pt 總結</span><span data-lang-zh-hans>结论黄线:页末左缘 4pt 黄色竖线 + Bold 9pt 总结</span><span data-lang-en>Conclusion: 4pt yellow vertical line + bold 9pt summary</span></li>
+          <li><span data-lang-zh-hant>章節標題組:灰褐大號碼(13mm欄)+ Bold 拉寬標題 + 灰色全大寫英文 kicker + 髮絲線;防孤行</span><span data-lang-zh-hans>章节标题组:灰褐大号码 + Bold 拉宽标题 + 英文 kicker + 发丝线;防孤行</span><span data-lang-en>Section header group: taupe numeral + tracked bold title + EN kicker + hairline; keep-together</span></li>
+          <li><span data-lang-zh-hant>引言面板:米底 #F3EEE7 + 灰褐 1.4pt 左邊線 + Light 字重</span><span data-lang-zh-hans>引言面板:米底 + 灰褐左边线 + Light 字重</span><span data-lang-en>Quote panel: beige bg + 1.4pt taupe left bar + Light weight</span></li>
+          <li><span data-lang-zh-hant>去格線表格:表頭下與表底 0.9pt 粗線 + 列間髮絲線;無直線無底色;表頭暖棕拉寬、首欄深棕</span><span data-lang-zh-hans>去格线表格:上下 0.9pt 粗线 + 行间发丝线;无竖线无底色</span><span data-lang-en>Borderless table: 0.9pt top/bottom rules + hairline rows; no verticals, no fills</span></li>
+          <li><span data-lang-zh-hant>追蹤表(周進度表):保留髮絲全格線,排程週期以淺砂色塊標示</span><span data-lang-zh-hans>跟踪表(周进度表):保留发丝全格线,排程周期以浅砂色块标示</span><span data-lang-en>Tracker table: hairline grid kept, schedule weeks marked with sand blocks</span></li>
         </ol>
       </div>
 
       <div class="card">
         <h3 style="margin-top:0;">
-          <span data-lang-zh-hant>版面紀律</span>
-          <span data-lang-zh-hans>版面纪律</span>
-          <span data-lang-en>Layout Discipline</span>
+          <span data-lang-zh-hant>紀律與字型工程</span>
+          <span data-lang-zh-hans>纪律与字体工程</span>
+          <span data-lang-en>Discipline &amp; Font Engineering</span>
         </h3>
         <ul style="margin:0;padding-left:20px;line-height:1.9;font-size:14px;">
-          <li><span data-lang-zh-hant>每份 4–6 頁:封面 1 頁 + 每題約 1 頁;成套報告版面常數完全一致,僅換內容與封面曲線</span><span data-lang-zh-hans>每份 4–6 页;成套报告版面常数完全一致</span><span data-lang-en>4–6 pages per report; series share identical layout constants</span></li>
-          <li><span data-lang-zh-hant>封面數據圖必須呼應個案主題並標記 3–6 個關鍵事件(黃點 + 7pt 註記)</span><span data-lang-zh-hans>封面数据图必须呼应案例主题并标记 3–6 个关键事件</span><span data-lang-en>Cover chart must reflect the case theme with 3–6 annotated events</span></li>
-          <li><span data-lang-zh-hant>黑白灰 ≥80% / 黃 ≤20%;WINGO 禁用;Logo 深底配白字標、淺底配黑字標</span><span data-lang-zh-hans>黑白灰 ≥80% / 黄 ≤20%;WINGO 禁用</span><span data-lang-en>B/W/grey ≥80%, yellow ≤20%; no WINGO; logo pairing per §Logo</span></li>
-          <li><span data-lang-zh-hant>技術:Python + reportlab 直繪(非HTML轉檔);內嵌 Noto Sans TC;全形 ＋＝＞− 一律改 ASCII 避免缺字</span><span data-lang-zh-hans>技术:Python + reportlab 直绘;内嵌 Noto Sans TC;全形数学符号改 ASCII</span><span data-lang-en>Python + reportlab direct drawing; embedded Noto Sans TC; ASCII substitution for fullwidth math glyphs</span></li>
+          <li><span data-lang-zh-hant>頁首尾各一條 0.5pt 髮絲線;左密級聲明、右兩位數深棕頁碼;拉丁字母間空格</span><span data-lang-zh-hans>页首尾各一条 0.5pt 发丝线;左密级声明、右两位数深棕页码</span><span data-lang-en>0.5pt hairlines top/bottom; classification left, 2-digit deep-brown page no. right</span></li>
+          <li><span data-lang-zh-hant>變體字型 instancer 必須 inplace=True,且每字重改寫 name table 唯一 PSName——否則 reportlab 五字重塌縮為一;以 pdffonts 驗證</span><span data-lang-zh-hans>变体字体 instancer 必须 inplace=True,且每字重改写 name table 唯一 PSName;以 pdffonts 验证</span><span data-lang-en>Instancer must use inplace=True + unique PSName per weight (else reportlab collapses weights); verify with pdffonts</span></li>
+          <li><span data-lang-zh-hant>簡體版:Noto Sans SC + OpenCC tw2s 純字元轉換(不轉用語);檔名 _简体版;發往大陸之培訓材料用稱謂不用人名</span><span data-lang-zh-hans>简体版:Noto Sans SC + OpenCC tw2s 纯字符转换(不转用语);文件名 _简体版;发往大陆之培训材料用称谓不用人名</span><span data-lang-en>SC edition: Noto Sans SC + OpenCC tw2s char-only; suffix _简体版; titles-not-names for CN-bound training docs</span></li>
+          <li><span data-lang-zh-hant>PDF 內禁用 #FFC400(原 Editorial Yellow 已廢止);WINGO 未經核准不得出現;外部教材改作附來源與內部使用聲明</span><span data-lang-zh-hans>PDF 内禁用 #FFC400(原 Editorial Yellow 已废止);WINGO 未经核准不得出现;外部教材改作附来源与内部使用声明</span><span data-lang-en>#FFC400 banned in PDFs (Editorial Yellow retired); no WINGO without approval; adapted external materials carry source + internal-use notice</span></li>
         </ul>
       </div>
     </section>
